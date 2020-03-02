@@ -1,7 +1,6 @@
 /*  
 Question: When to use an array of objects and object of arrays
 Googled answer: If a collection of properties of varying types, use an object, otherwise use an array
-test
 */
 
 var appData = {
