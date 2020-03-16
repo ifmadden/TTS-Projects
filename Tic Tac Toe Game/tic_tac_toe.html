@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="tic_tac_toe.css">
+   </head>
+<body>
+    <div id = "flexWelcome">
+        <p id = "welcomeMessage">Welcome to Ian's Tic-Tac-Toe Game!</p>
+        <button id = "welcomeButton">Click here if you're ready to play!</button>
+    </div>
+
+    <div id = "flexNameForm">
+        <form action="#" method="post" id="playerNames">
+            <label for="p1Name">Player 1:</label><br>
+            <input type="text" id="p1Name"><br><br>
+            <label for="p2Name">Player 2:</label><br>
+            <input type="text" id="p2Name"><br><br>
+            <input type="button" id ="submitButton" value="Submit">    
+        </form>
+    </div>
+
+    <div id = "challenge"></div>
+
+    <div id = "flexTicTacToe">
+        <table id = "ticTacToeTable">
+            <tr id = "r1">
+                <td id = "r1c1"></td>
+                <td id = "r1c2"></td>
+                <td id = "r1c3"></td>
+            </tr>
+            <tr id = "r2">
+                <td id = "r2c1"></td>
+                <td id = "r2c2"></td>
+                <td id = "r2c3"></td>
+            </tr>
+            <tr id = "r3">
+                <td id = "r3c1"></td>
+                <td id = "r3c2"></td>
+                <td id = "r3c3"></td>
+            </tr>
+        </table>
+     </div>
+
+    <div id = "matchMessage"></div>
+
+    <div id = "flexButton">
+    <button id = "rematch">Rematch?</button>
+    </div>
+    
+    <div id = "newGame">
+        <button id = "newGameButton">New Game</button>
+    </div>
+
+</body>
+<script src="tic_tac_toe.js"></script>
+</html>
+

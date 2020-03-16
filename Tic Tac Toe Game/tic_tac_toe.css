@@ -1,0 +1,97 @@
+/* #flexWelcome, #flexNameForm{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;  
+} */
+
+div{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+#flexNameForm, #challenge{
+  display: none;
+  height: 200px;
+  margin-top: 75px;  
+}
+
+#challenge, #matchMessage{
+  font-family: Arial, sans-serif;
+  font-size: 2.5em;
+}
+
+table, th, td {
+   border: 1px solid black;
+   font-family: Arial, sans-serif;
+   text-align: center;
+   font-size: 2em;
+   table-layout: fixed;
+ }
+
+ tr{
+   height: 50px;
+ }
+
+ #flexTicTacToe{
+    position: relative;
+    width: 100%;
+    height: 225px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;  
+ }
+
+ #ticTacToeTable{
+   position: relative; 
+   width: 25%;
+   text-align: center; 
+   background-color: greenyellow;
+   font-size: 18px;
+ }
+
+ #flexButton{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+ }
+
+ #matchMessage{
+   height: 75px;
+   display: none;
+ }
+
+ #newGameButton{
+  position: relative;
+  display: none;
+  width: 25%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+ #rematch, #newGameButton{
+   position: relative;
+   width: 25%;
+   height: 50px;
+   align-items: center;
+   justify-content: center;
+ }
+
+ #newGameButton{
+  display: none;
+}
+
+
