@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendSphere</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/NExnoru.png">
+    <link rel="stylesheet" type="text/css" href="user_profile.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=B612&display=swap');
+    </style>
+</head>
+<body>
+    <div class = "backgroundHeader">
+        <div class = "backgroundText">FriendSphere</div>
+
+        <div class = "userLogin">
+            <form action="user_profile_successful_login.html" method="post" id="userLogin">
+                <label for="emailAddress">E-Mail Address:</label><br>
+                <input type="text" id="loginEmailAddress"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="loginPassword"><br><br>
+                <input type="button" id="loginSubmit" value="Login">    
+            </form>
+        </div>    
+
+    </div>
+
+    <div class = "userSignUp">
+        <form action="user_profile_successful_login.html" method="post" id="userSignUp">
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName"><br>
+            
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName"><br>
+            <label for="emailAddress">E-Mail Address:</label><br>
+            <input type="text" id="signUpEmailAddress"><br>
+            <label for="phoneNumber">Phone Number:</label><br>
+            <input type="text" id="phoneNumber"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="signUpPassword"><br>
+            <input type="button" id="signUpSubmit" value="Sign Up">    
+        </form>
+    </div>
+
+    <script src="user_profile.js"></script>
+</body>
+</html>
+

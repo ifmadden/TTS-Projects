@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'B612', sans-serif;
+}
+
+.backgroundHeader{
+  height: 65px;
+  width: 100%;
+  background-color: darkcyan;
+  display: flex;
+  align-items: center;
+}
+
+.backgroundText{
+  text-align: center;
+  justify-content: center;
+  width: 25%;
+  margin-left: 40px;
+  color: wheat;
+  font-family: 'B612', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.userLogin{
+  width: 75%;  
+}
+
+.userLogin label, input{
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.userLogin form{
+  display: inline-flex;
+  justify-content: flex-end;  
+  align-items: center;  
+  width: 100%; 
+}
+
+#submitButton{
+  margin-right: 5px;
+}
+
+.userSignUp{
+  background-color: goldenrod;
+  display: flex;
+  padding-top: 50px;
+  height: 650px;
+}
+
+.userSignUp form{
+  text-align: center;
+  width: 100%;
+}
+
+form .error{
+  color: red;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.error p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.loginSuccess, .loginFailure{
+  padding-top: 10px;
+  background-color: goldenrod;
+}
